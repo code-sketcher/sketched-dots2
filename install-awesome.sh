@@ -12,4 +12,4 @@ git clone https://github.com/awesomeWM/awesome.git ~/awesome && \
   cmake .. -DCMAKE_INSTALL_PREFIX=/usr -DSYSCONFDIR=/etc && \
   make -j4 && \
   make package \
-  sudo nala install *.deb
+  sudo dpkg -i *.deb
